@@ -1,0 +1,152 @@
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 28
+Time taken with sequential is : 3.224443890 sec
+Time taken with collapse is : 0.550413 
+Time taken with tiling is : 0.159304
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 24
+Time taken with collapse is : 0.471856 
+Time taken with tiling is : 0.158990
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 20
+Time taken with collapse is : 0.517866 
+Time taken with tiling is : 0.175991
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 16
+Time taken with collapse is : 0.478679 
+Time taken with tiling is : 0.164180
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 14
+Time taken with collapse is : 0.496615 
+Time taken with tiling is : 0.166228
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 12
+Time taken with collapse is : 0.459575 
+Time taken with tiling is : 0.174610
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 8
+Time taken with collapse is : 0.734392 
+Time taken with tiling is : 0.210237
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 4
+Time taken with collapse is : 0.808804 
+Time taken with tiling is : 0.267823
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 2
+Time taken with collapse is : 1.957777 
+Time taken with tiling is : 0.536600
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 1000 1000 1
+Time taken with collapse is : 3.298640 
+Time taken with tiling is : 1.098944
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 28
+Time taken with sequential is : 104.722312
+Time taken with collapse is : 14.038875 
+Time taken with tiling is : 1.465638
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 24
+Time taken with collapse is : 13.941713 
+Time taken with tiling is : 1.549423
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 20
+Time taken with collapse is : 14.209248 
+Time taken with tiling is : 1.514109
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 16
+Time taken with collapse is : 14.288681 
+Time taken with tiling is : 1.535516
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 14
+Time taken with collapse is : 14.395988 
+Time taken with tiling is : 1.566524
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 12
+Time taken with collapse is : 14.814592 
+Time taken with tiling is : 1.584790
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 8
+Time taken with collapse is : 15.784515 
+Time taken with tiling is : 1.893215
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 4
+Time taken with collapse is : 26.473632 
+Time taken with tiling is : 2.656544
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 2
+Time taken with collapse is : 52.899422 
+Time taken with tiling is : 5.376819
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 1000 2000 5000 1
+Time taken with collapse is : 105.841789 
+Time taken with tiling is : 10.754005
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 28
+Time taken with sequential is : 1010.384405644
+Time taken with collapse is : 130.332679 
+Time taken with tiling is : 13.450321
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 24
+Time taken with collapse is : 123.055023 
+Time taken with tiling is : 12.303143
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 20
+Time taken with collapse is : 131.250934 
+Time taken with tiling is : 12.326260
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 16
+Time taken with collapse is : 131.297627 
+Time taken with tiling is : 12.770895
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 14
+Time taken with collapse is : 134.188185 
+Time taken with tiling is : 12.755662
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 12
+Time taken with collapse is : 138.703192 
+Time taken with tiling is : 13.002018
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 8
+Time taken with collapse is : 139.243533 
+Time taken with tiling is : 13.381103
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 4
+Time taken with collapse is : 246.424479 
+Time taken with tiling is : 21.835003
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 2
+Time taken with collapse is : 495.180552 
+Time taken with tiling is : 43.607768
+Matrix Multiply correct
+
+[bnaredla@login1 Program-1]$ ./matmult_omp 9000 2500 3750 1
+Time taken with collapse is : 992.740216 
+Time taken with tiling is : 90.461074
+Matrix Multiply correct

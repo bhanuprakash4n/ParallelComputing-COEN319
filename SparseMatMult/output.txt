@@ -1,0 +1,1114 @@
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 1
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 1
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94934675>
+Execution time: 37.12
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 2
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 2
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94726065>
+Execution time: 22.7406
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 4
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 4
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94899005>
+Execution time: 14.878
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 8
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 8
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94804960>
+Execution time: 10.7881
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 12
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 12
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94646743>
+Execution time: 11.5497
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 14
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 14
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94771620>
+Execution time: 10.1521
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 16
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 16
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94608616>
+Execution time: 10.6369
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 20
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 20
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94938031>
+Execution time: 10.7406
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 24
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 24
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94827520>
+Execution time: 11.0417
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.05 -t 28
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.05
+nthreads: 28
+A<10000, 10000, 5000000>
+B<10000, 10000, 5000000>
+C<10000, 10000, 94859897>
+Execution time: 10.9958
+
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 1
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 1
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98430954>
+Execution time: 126.968
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 2
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 2
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98329387>
+Execution time: 64.002
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 4
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 4
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98388739>
+Execution time: 35.3006
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 8
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 8
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98363373>
+Execution time: 23.8222
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 12
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 12
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98366305>
+Execution time: 24.8491
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 14
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 14
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98381181>
+Execution time: 24.3784
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 16
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 16
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98444455>
+Execution time: 25.6183
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 20
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 20
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98243147>
+Execution time: 24.5687
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 24
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 24
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98466001>
+Execution time: 25.2651
+[bnaredla@login1 Program-2]$ ./sparsematmult 10000 10000 10000 0.10 -t 28
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.1
+nthreads: 28
+A<10000, 10000, 10000000>
+B<10000, 10000, 10000000>
+C<10000, 10000, 98439381>
+Execution time: 26.1275
+
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 1
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99235823>
+Execution time: 270.364
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 2
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99255771>
+Execution time: 139.319
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 4
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99085258>
+Execution time: 71.1885
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 8
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99230563>
+Execution time: 42.8623
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 12
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99219566>
+Execution time: 44.8812
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 14
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99209264>
+Execution time: 44.8538
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 16
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99117912>
+Execution time: 45.926
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 20
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99057594>
+Execution time: 47.2067
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 24
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99186809>
+Execution time: 45.4436
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.15
+nthreads: 28
+A<10000, 10000, 15000000>
+B<10000, 10000, 15000000>
+C<10000, 10000, 99158455>
+Execution time: 46.1996
+
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 1
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99463341>
+Execution time: 467.403
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 2
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99456511>
+Execution time: 234.924
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 4
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99523896>
+Execution time: 120.48
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 8
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99466665>
+Execution time: 71.1039
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 12
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99577410>
+Execution time: 71.2786
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 14
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99448144>
+Execution time: 72.6575
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 16
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99479863>
+Execution time: 72.0398
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 20
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99507324>
+Execution time: 72.6442
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 24
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99523869>
+Execution time: 72.511
+A_nrows: 10000
+A_ncols: 10000
+B_ncols: 10000
+factor: 0.2
+nthreads: 28
+A<10000, 10000, 20000000>
+B<10000, 10000, 20000000>
+C<10000, 10000, 99511212>
+Execution time: 72.5266
+
+
+
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 1
+A<20000, 5300, 5290001>
+B<50000, 5300, 13224808>
+C<20000, 50000, 914777908>
+Execution time: 204.866
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 2
+A<20000, 5300, 5290085>
+B<50000, 5300, 13224567>
+C<20000, 50000, 912961483>
+Execution time: 147.084
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 4
+A<20000, 5300, 5289059>
+B<50000, 5300, 13224779>
+C<20000, 50000, 915343448>
+Execution time: 80.2372
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 8
+A<20000, 5300, 5290045>
+B<50000, 5300, 13224934>
+C<20000, 50000, 914976487>
+Execution time: 68.8194
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 12
+A<20000, 5300, 5289967>
+B<50000, 5300, 13225022>
+C<20000, 50000, 914764822>
+Execution time: 59.2721
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 14
+A<20000, 5300, 5289111>
+B<50000, 5300, 13225144>
+C<20000, 50000, 914046765>
+Execution time: 55.4195
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 16
+A<20000, 5300, 5289992>
+B<50000, 5300, 13225189>
+C<20000, 50000, 915365723>
+Execution time: 57.2436
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 20
+A<20000, 5300, 5290984>
+B<50000, 5300, 13225125>
+C<20000, 50000, 913289633>
+Execution time: 60.668
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 24
+A<20000, 5300, 5290084>
+B<50000, 5300, 13224972>
+C<20000, 50000, 913108032>
+Execution time: 60.8429
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.05
+nthreads: 28
+A<20000, 5300, 5290001>
+B<50000, 5300, 13225459>
+C<20000, 50000, 914727846>
+Execution time: 53.1394
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 1
+A<20000, 5300, 10589953>
+B<50000, 5300, 26475092>
+C<20000, 50000, 971580049>
+Execution time: 675.221
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 2
+A<20000, 5300, 10590040>
+B<50000, 5300, 26474928>
+C<20000, 50000, 971691221>
+Execution time: 370.514
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 4
+A<20000, 5300, 10590032>
+B<50000, 5300, 26474076>
+C<20000, 50000, 971067176>
+Execution time: 208.102
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 8
+A<20000, 5300, 10589987>
+B<50000, 5300, 26474872>
+C<20000, 50000, 971931543>
+Execution time: 149.167
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 12
+A<20000, 5300, 10590044>
+B<50000, 5300, 26475093>
+C<20000, 50000, 971693745>
+Execution time: 129.071
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 14
+A<20000, 5300, 10590028>
+B<50000, 5300, 26474985>
+C<20000, 50000, 972037875>
+Execution time: 132.208
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 16
+A<20000, 5300, 10589949>
+B<50000, 5300, 26475147>
+C<20000, 50000, 971488898>
+Execution time: 126.032
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 20
+A<20000, 5300, 10590023>
+B<50000, 5300, 26475046>
+C<20000, 50000, 970777158>
+Execution time: 125.631
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 24
+A<20000, 5300, 10590038>
+B<50000, 5300, 26475058>
+C<20000, 50000, 971920172>
+Execution time: 125.4
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.1
+nthreads: 28
+A<20000, 5300, 10590018>
+B<50000, 5300, 26475044>
+C<20000, 50000, 971116712>
+Execution time: 119.706
+
+
+
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 1
+A<20000, 5300, 15890029>
+B<50000, 5300, 39724865>
+C<20000, 50000, 986158008>
+Execution time: 1841.92
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 2
+A<20000, 5300, 15890058>
+B<50000, 5300, 39725138>
+C<20000, 50000, 986354534>
+Execution time: 766.42
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 4
+A<20000, 5300, 15889980>
+B<50000, 5300, 39725050>
+C<20000, 50000, 986141997>
+Execution time: 420.409
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 8
+A<20000, 5300, 15890021>
+B<50000, 5300, 39725002>
+C<20000, 50000, 986179926>
+Execution time: 237.739
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 12
+A<20000, 5300, 15889988>
+B<50000, 5300, 39724894>
+C<20000, 50000, 985726814>
+Execution time: 234.775
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 14
+A<20000, 5300, 15889967>
+B<50000, 5300, 39725055>
+C<20000, 50000, 986415243>
+Execution time: 237.561
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 16
+A<20000, 5300, 15889994>
+B<50000, 5300, 39724970>
+C<20000, 50000, 985836130>
+Execution time: 228.464
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 20
+A<20000, 5300, 15889995>
+B<50000, 5300, 39724980>
+C<20000, 50000, 985781599>
+Execution time: 225.733
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 24
+A<20000, 5300, 15889946>
+B<50000, 5300, 39724984>
+C<20000, 50000, 985054395>
+Execution time: 224.525
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.15
+nthreads: 28
+A<20000, 5300, 15890013>
+B<50000, 5300, 39724768>
+C<20000, 50000, 984711203>
+Execution time: 235.175
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 1
+A<20000, 5300, 21189986>
+B<50000, 5300, 52975033>
+C<20000, 50000, 990291461>
+Execution time: 2471.04
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 2
+A<20000, 5300, 21190057>
+B<50000, 5300, 52974962>
+C<20000, 50000, 991375547>
+Execution time: 1287.56
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 4
+A<20000, 5300, 21189943>
+B<50000, 5300, 52974994>
+C<20000, 50000, 991709865>
+Execution time: 685.012
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 8
+A<20000, 5300, 21189921>
+B<50000, 5300, 52975037>
+C<20000, 50000, 991255194>
+Execution time: 440.373
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 12
+A<20000, 5300, 21190115>
+B<50000, 5300, 52974910>
+C<20000, 50000, 990678107>
+Execution time: 429.275
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 14
+A<20000, 5300, 21190061>
+B<50000, 5300, 52975089>
+C<20000, 50000, 990645574>
+Execution time: 415.414
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 16
+A<20000, 5300, 21190029>
+B<50000, 5300, 52974983>
+C<20000, 50000, 991088689>
+Execution time: 402.411
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 20
+A<20000, 5300, 21189931>
+B<50000, 5300, 52974963>
+C<20000, 50000, 991294760>
+Execution time: 392.379
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 24
+A<20000, 5300, 21189981>
+B<50000, 5300, 52974985>
+C<20000, 50000, 991686842>
+Execution time: 382.812
+A_nrows: 20000
+A_ncols: 5300
+B_ncols: 50000
+factor: 0.2
+nthreads: 28
+A<20000, 5300, 21190009>
+B<50000, 5300, 52975152>
+C<20000, 50000, 991385690>
+Execution time: 387.097
+
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 1
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50853191>
+Execution time: 60.7284
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 2
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50870411>
+Execution time: 32.9709
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 4
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50763438>
+Execution time: 17.4054
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 8
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50795568>
+Execution time: 16.0908
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 12
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50691917>
+Execution time: 19.1253
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 14
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50835905>
+Execution time: 26.0566
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 16
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50809726>
+Execution time: 25.4155
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 20
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50711854>
+Execution time: 25.6885
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 24
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50826915>
+Execution time: 19.6738
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.05
+nthreads: 28
+A<9000, 35000, 15750000>
+B<5750, 35000, 10062500>
+C<9000, 5750, 50787699>
+Execution time: 32.2966
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 1
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51422105>
+Execution time: 233.383
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 2
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51493253>
+Execution time: 119.784
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 4
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51469223>
+Execution time: 58.4993
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 8
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51435683>
+Execution time: 35.4279
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 12
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51495981>
+Execution time: 41.2749
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 14
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51498009>
+Execution time: 41.6722
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 16
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51434825>
+Execution time: 41.7
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 20
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51472458>
+Execution time: 41.8312
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 24
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51482325>
+Execution time: 42.261
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.1
+nthreads: 28
+A<9000, 35000, 31500000>
+B<5750, 35000, 20125000>
+C<9000, 5750, 51471074>
+Execution time: 41.2388
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 1
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51628715>
+Execution time: 487.663
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 2
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51607629>
+Execution time: 243.906
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 4
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51627448>
+Execution time: 129.86
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 8
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51612287>
+Execution time: 96.6519
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 12
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51607787>
+Execution time: 92.5636
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 14
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51626720>
+Execution time: 91.1861
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 16
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51611332>
+Execution time: 100.395
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 20
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51604442>
+Execution time: 103.865
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 24
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51589647>
+Execution time: 99.335
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.15
+nthreads: 28
+A<9000, 35000, 47250000>
+B<5750, 35000, 30187500>
+C<9000, 5750, 51618631>
+Execution time: 114.796
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 1
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51648416>
+Execution time: 874.817
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 2
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51677801>
+Execution time: 426.243
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 4
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51660211>
+Execution time: 215.618
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 8
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51672826>
+Execution time: 136.248
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 12
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51683846>
+Execution time: 129.886
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 14
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51652522>
+Execution time: 126.607
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 16
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51661791>
+Execution time: 127.946
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 20
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51669928>
+Execution time: 125.131
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 24
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51665615>
+Execution time: 124.414
+A_nrows: 9000
+A_ncols: 35000
+B_ncols: 5750
+factor: 0.2
+nthreads: 28
+A<9000, 35000, 63000000>
+B<5750, 35000, 40250000>
+C<9000, 5750, 51654369>
+Execution time: 124.811
+
+
+
+
